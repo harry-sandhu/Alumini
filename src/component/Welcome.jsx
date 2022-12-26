@@ -18,8 +18,8 @@ const Welcome = () => {
         </Typography>
         <img
           src="https://www.iiitm.ac.in/images/2022/04/30/q4-overall-rank.png"
-          height="500px"
-          width="auto"
+          height={{ xs: '250px', sm: '500px' }}
+          width={{ xs: '250px', sm: '500px' }}
         />
       </List>
     </Stack>

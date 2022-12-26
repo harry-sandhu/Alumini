@@ -9,9 +9,9 @@ const Updates = () => {
   return (
     <Stack>
       <Stack
-        direction="row"
+        direction={{ xs: 'column', sm: 'row' }}
         spacing={2}
-        justifyContent="space-evenly"
+        justifyContent={{ xs: 'center', sm: 'space-evenly' }}
         padding="30px"
       >
         <Welcome />
